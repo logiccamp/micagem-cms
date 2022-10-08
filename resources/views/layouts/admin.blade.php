@@ -73,7 +73,7 @@
                                     </li>
                                     <li><a href="/admin/general"><span class="fa fa-lock"></span></a></li>
                                     <li>
-                                        <form action="{{route('logout')}" method="post">
+                                        <form action="{{route('logout')}}" method="post">
                                             <button style="background: transparent; border: none; padding: 0; margin: 0;" class="bg-none"><span class="fa fa-power-off"></span></button>
                                         </form>
                                     </li>
