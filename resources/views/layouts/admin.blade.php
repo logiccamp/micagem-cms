@@ -68,9 +68,15 @@
                             <li role="separator" class="divider"></li>
                             <li class="more">
                                 <ul>
-                                    <li><a href=""><span class="fa fa-cogs"></span></a></li>
-                                    <li><a href=""><span class="fa fa-lock"></span></a></li>
-                                    <li><a href=""><span class="fa fa-power-off "></span></a></li>
+                                    <li>
+                                        <a href="/admin/settings"><span class="fa fa-cogs"></span></a>
+                                    </li>
+                                    <li><a href="/admin/general"><span class="fa fa-lock"></span></a></li>
+                                    <li>
+                                        <form action="{{route('logout')}" method="post">
+                                            <button style="background: transparent; border: none; padding: 0; margin: 0;" class="bg-none"><span class="fa fa-power-off"></span></button>
+                                        </form>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
