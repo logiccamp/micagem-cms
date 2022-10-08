@@ -13,7 +13,7 @@
         <div class="divider wow slideInRight" data-wow-delay="0.2s"></div>
         <p>{{$page->sub_text}} </p>
         <div class="">
-            <a href="#requestQuote" class="btn primary_bg btn-sm text-white wow slideInLeft" data-wow-duration="2s" data-wow-delay=".4s">About Us</a>
+            <a href="/about-us" class="btn primary_bg btn-sm text-white wow slideInLeft" data-wow-duration="2s" data-wow-delay=".4s">About Us</a>
             <span class="mx-2"></span>
             <a href="#requestQuote" class="btn btn-outline-success btn-sm text-white wow slideInRight" data-wow-duration="1s" data-wow-delay=".4s">Request Quote</a>
         </div>
