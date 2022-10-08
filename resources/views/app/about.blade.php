@@ -146,7 +146,11 @@
             @foreach ($team as $member)
             <div class="card team p-1">
                 <div class="team_image">
-                    <img class="img-fluid" src="/storage/{{$member->image}}" alt="">
+                    @if(empty($member->image))
+                    <img class="img-fluid rounded-pill" height="250" width="250" style="object-fit: cover;" src="/assets/images/user_avatar.jpg" alt="">
+                    @else
+                    <img class="img-fluid rounded-pill" height="250" width="250" style="object-fit: cover;" src="/storage/{{$member->image}}" alt="">
+                    @endif
                 </div>
                 <div class="team_name">
                     <h6>{{$member->name}}</h6>

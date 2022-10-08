@@ -29,7 +29,7 @@
 
 <body>
     <div id="app">
-        <div class="banner overlay" id="{{$page->page_name !== 'Home' ? 'page' : ''}}" style='background-repeat: no-repeat; background-position: center !important; background: url("{{env('APP_CDN')}}/{{$page->banner}}")'>
+        <div class="banner overlay" id="{{$page->page_name !== 'Home' ? 'page' : ''}}" style='background: url("/storage/{{$page->banner}}"); background-repeat: no-repeat; background-position: center !important;'>
             <header class="px-lg-3">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-none py-3">
                     <a class="navbar-brand" href="#"><img style="height: 72px" class="img-fluid" src="{{env('APP_CDN')}}/{{$info->company_logo}}" alt=""></a>
