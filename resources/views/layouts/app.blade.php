@@ -240,7 +240,7 @@
         <script src="{{asset('assets/js/wow.min.js')}}"></script>
         <script src="{{asset('assets/js/isotope.js')}}"></script>
         <script src="{{asset('assets/js/main.js')}}"></script>
-        <script src="//code.tidio.co/mmugeyvpuzaqbikbnzlcpwcbschhj40a.js" async></script>
+        <script src="//code.tidio.co/3wgzifybqxa8zmv3ii9twu8wrs68ikb8.js" async></script>
         @yield('scripts')
 </body>
 
