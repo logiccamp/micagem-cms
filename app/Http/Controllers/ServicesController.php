@@ -103,7 +103,9 @@ class ServicesController extends Controller
     public function update(Request $request, $id)
     {
         $service = Service::where("id", $id)->first();
-        $request->title == '' ? '' : $service->title = $request->title;
+        if($request->title != ""){
+            $service->title = $request->title;
+        }
 
         $service->description = $request->description;
         $service->save();

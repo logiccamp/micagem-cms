@@ -28,6 +28,6 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.contactmail')->subject("New Contact Message from " . $this->data["email"])->to("hello@topclasscarpets.com");
+        return $this->markdown('emails.contactmail')->subject("New Contact Message from " . $this->data["email"])->to("info@micagemconstruction.com");
     }
 }

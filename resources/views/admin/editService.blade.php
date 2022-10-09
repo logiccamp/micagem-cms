@@ -27,7 +27,7 @@
                     <div class="card-body">
                         <div>
                             <label for="">Title</label>
-                            <input type="text" class="form-control" value="{{$service->title}}">
+                            <input type="text" name="title" class="form-control" value="{{$service->title}}">
                         </div>
                         <div class="my-4">
                             <label for="">Description</label>

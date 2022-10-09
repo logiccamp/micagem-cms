@@ -107,7 +107,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 col-6 item {{$collection->Service->id}}">
                     <div class="collection_block">
                         <div class="collection_image">
-                            <img src="{{env('APP_CDN')}}/{{$collection->image}}" class="img-fluid w-100" alt="">
+                            <img src="{{env('APP_CDN')}}/{{$collection->image}}" class="img-fluid w-100" style="height: 250px;" alt="">
                         </div>
                         <div class="collection_content">
                             <div class="section_title mt-2">

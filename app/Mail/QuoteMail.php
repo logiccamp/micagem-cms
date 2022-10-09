@@ -28,6 +28,6 @@ class QuoteMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.quotemail')->subject("New Quote Request from " . $this->data["email"])->to("hello@topclasscarpets.com");
+        return $this->markdown('emails.quotemail')->subject("New Quote Request from " . $this->data["email"])->to("info@micagemconstruction.com.com");
     }
 }

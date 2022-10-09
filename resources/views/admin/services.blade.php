@@ -169,7 +169,7 @@
                     response.forEach(service => {
                         const tr = ` <tr>
                             <td>
-                                <img src="{{env('APP_CDN')}}/${service.image}" alt="" style="height: 100px; width: 100%; object-fit: cover">
+                                <img src="{{env('APP_CDN')}}/${service.image}" alt="" style="height: 100px; width: 100px; object-fit: cover">
                             </td>
                             <td>${service.title}</td>
                             <td>${service.description}</td>
